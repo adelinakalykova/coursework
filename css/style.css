@@ -54,8 +54,6 @@ body {
   border-radius: 8px;
 }
 
-
-
 .hero {
   padding-bottom: 210px;
 }
@@ -99,28 +97,49 @@ body {
   border-radius: 8px;
 }
 
-.hero-btn::before{
+.hero-btn::before {
   content: "";
   position: absolute;
   transform: translateX(-50%);
-  left:190px;
+  left: 190px;
   gap: 10px;
   width: 24px;
   height: 24px;
   background-image: url("../images/dropdown.svg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 .hero-devices {
   font-size: 24px;
   color: #bdbdbd;
 }
 
-
 .hero-img {
   margin: 0;
   width: 540px;
-  height:480px;
+  height: 480px;
   margin-right: 30px;
+}
+
+.overview-top {
+  background-color: #ff7235;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+}
+
+.overview-link {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+.overview-bottom {
+  padding-top: 82px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 108px;
 }
