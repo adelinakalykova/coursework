@@ -64,6 +64,10 @@ body {
   align-items: start;
   gap: 30px;
 }
+
+.hero-left{
+  width: 50%;
+}
 .hero-title {
   margin: 0;
   width: 540px;
@@ -114,7 +118,9 @@ body {
   font-size: 24px;
   color: #bdbdbd;
 }
-
+.hero-right{
+  width: 50%;
+}
 .hero-img {
   margin: 0;
   width: 540px;
