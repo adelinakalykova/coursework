@@ -65,7 +65,7 @@ body {
   gap: 30px;
 }
 
-.hero-left{
+.hero-left {
   width: 50%;
 }
 .hero-title {
@@ -118,7 +118,7 @@ body {
   font-size: 24px;
   color: #bdbdbd;
 }
-.hero-right{
+.hero-right {
   width: 50%;
 }
 .hero-img {
@@ -129,11 +129,11 @@ body {
 }
 
 .overview-top {
+  padding-top: 100px;
   background-color: #ff7235;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px 0 20px;
   margin: 0 auto;
 }
 
@@ -141,6 +141,7 @@ body {
   max-width: 100%;
   height: auto;
   align-items: center;
+  display: flex;
 }
 .overview-bottom {
   padding-top: 82px;
