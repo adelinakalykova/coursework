@@ -317,3 +317,104 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.product {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.product-top {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 80px;
+}
+.product-title {
+  margin: 0;
+  padding: 0;
+  width: 730px;
+  height: 192px;
+  font-size: 92px;
+  line-height: 96px;
+}
+.product-desc {
+  text-align: left;
+  color: #bdbdbd;
+  width: 350px;
+  height: 150px;
+  font-size: 20px;
+  line-height: 38px;
+}
+.product-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+.product-menu-item {
+  position: relative;
+  padding: 63px 65px 63px 65px;
+  width: 100%;
+
+}
+
+.product-menu-item:nth-child(2) {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+.product-menu-item::before {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/phonelink.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  background-color: rgba(255, 189, 116, 0.05);
+  padding: 20px;
+  border-radius: 50%;
+}
+.product-menu-item-cloud::before {
+  background-image: url("../images/cloude.svg");
+  background-color: rgba(226, 89, 139, 0.05);
+}
+.product-menu-item-backpack::before {
+  background-image: url("../images/backpack.svg");
+  background-color: rgba(77, 18, 238, 0.05);
+}
+
+.product-menu-title {
+  color: #292830;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 88px;
+  margin-bottom: 12px;
+}
+.product-menu-desc {
+  color: #bdbdbd;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.product-menu-item-cloud::after {
+  content: "";
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
