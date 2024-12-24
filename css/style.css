@@ -494,7 +494,7 @@ body {
   list-style: none;
   text-align: left;
 }
-.plan-menu-item-desc p::before {
+.plan-menu-item-desc::before {
   position: absolute;
   transform: translateX(-50%);
   right: 95%;
