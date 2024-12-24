@@ -506,7 +506,7 @@ body {
 .result {
   padding-top: 80px;
   padding-bottom: 40px;
-  border-bottom: rgba(189, 189, 189, 0.2);
+  border-bottom: 1px solid rgba(189, 189, 189, 0.2);
 }
 
 .result-container {
@@ -595,4 +595,8 @@ button {
   color: #bdbdbd;
   font-size: 14px;
   text-align: left;
+}
+.footer{
+  padding-top: 20px;
+  padding-bottom: 90px;
 }
