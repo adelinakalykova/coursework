@@ -506,6 +506,7 @@ body {
 .result {
   padding-top: 80px;
   padding-bottom: 40px;
+  border-bottom: rgba(189, 189, 189, 0.2);
 }
 
 .result-container {
