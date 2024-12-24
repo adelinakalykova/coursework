@@ -492,7 +492,7 @@ body {
   color: #292830;
   font-size: 18px;
   list-style: none;
-  text-align:left;
+  text-align: left;
 }
 .plan-menu-item-desc p::before {
   position: absolute;
@@ -502,4 +502,96 @@ body {
   width: 24px;
   height: 24px;
   background-image: url("../images/ic_baseline-check.svg");
+}
+.result {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.links h4 {
+  padding: 0;
+  margin: 0 0 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+}
+
+.links-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-menu li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.legal h4 {
+  padding: 0;
+  margin: 0 0 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+}
+.legal-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.legal-menu li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.newsletter h4 {
+  padding: 0;
+  margin: 0 0 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+}
+.newsteller-desc {
+  color: #bdbdbd;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.button {
+  display: flex;
+  gap: 10px;
+}
+input {
+  padding: 17px 45px 16px 23px;
+  border: 1px solid #292830;
+  border-radius: 8px;
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  color: #0f241d;
+}
+button {
+  padding: 11px 15px 11px 18px;
+  background-color: #ff6600;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.button-desc {
+  color: #bdbdbd;
+  font-size: 14px;
+  text-align: left;
 }
