@@ -430,6 +430,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 30px;
 }
 
 .plans-card {
@@ -486,7 +487,33 @@ body {
   margin-top: 0;
   padding: 0;
 }
-.plan-button {
+
+.plan-button{
+  color: #ff6600;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ff6600;
+}
+.plan-button:hover{
+  background-color: #ff7235;
+}
+.plan-button::after {
+  content: "";
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/ic_twotone-arrow-right-alt.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 13px 20px 20px;
+}
+
+.plan-button--active {
   background-color: #ff6600;
   color: #fff;
   text-decoration: none;
@@ -495,6 +522,24 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
+.plan-button:hover{
+  background-color: #ff7235;
+}
+
+.plan-button--active::after {
+  content: "";
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/Vector1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 13px 20px 20px;
+}
+
 
 .result {
   padding-top: 80px;
