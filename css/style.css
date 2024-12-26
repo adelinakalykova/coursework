@@ -145,6 +145,7 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
@@ -652,7 +653,6 @@ button {
   text-decoration: none;
   gap: 24px;
 }
-
 
 .footer-social a {
   text-decoration: none;
