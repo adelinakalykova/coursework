@@ -639,6 +639,13 @@ button:hover {
   font-size: 14px;
   text-align: left;
 }
+.email-button {
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 10px;
+}
 .footer {
   padding-top: 20px;
   padding-bottom: 90px;
@@ -662,12 +669,4 @@ button:hover {
 .footer-social a {
   text-decoration: none;
   margin-right: 10px;
-}
-
-.footer-button {
-  display: flex;
-  gap: 10px;
-  border: 1px solid black;
-  padding: 6px;
-  border-radius: 10px;
 }
