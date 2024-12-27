@@ -467,6 +467,7 @@ body {
 .plans-title {
   font-size: 72px;
   text-align: center;
+  padding-top: 120px;
 }
 
 .plan-price {
@@ -606,27 +607,31 @@ body {
   font-weight: 400;
   text-align: left;
 }
-.button {
-  display: flex;
-  gap: 10px;
-}
+
 input {
   padding: 17px 45px 16px 23px;
-  border: 1px solid #292830;
-  border-radius: 8px;
   font-family: Hind Siliguri;
   font-size: 18px;
   color: #0f241d;
+  border: none;
 }
 button {
   padding: 11px 15px 11px 18px;
   background-color: #ff6600;
   font-family: Hind Siliguri;
   font-size: 16px;
+  font-weight: 700;
   text-align: left;
   color: #fff;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid #ff6600;
+  color: #ff6600;
 }
 
 .button-desc {
@@ -657,4 +662,12 @@ button {
 .footer-social a {
   text-decoration: none;
   margin-right: 10px;
+}
+
+.footer-button {
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 10px;
 }
